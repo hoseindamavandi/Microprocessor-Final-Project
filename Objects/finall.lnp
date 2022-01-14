@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\objects\finally.o"
+".\objects\gpio_lpc17xx.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\Objects\finall.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\finall.map" -o .\Objects\finall.axf

@@ -1,0 +1,33 @@
+Dependencies for Project 'finall', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\finally.c)(0x61DD3DD0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include-IC:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\finally.o --omf_browse .\objects\finally.crf --depend .\objects\finally.d)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\LPC17xx.h)(0x5E1DA18C)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F106A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7B544)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83460A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x58491C6A)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC7B54C)
+F (C:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver\GPIO_LPC17xx.c)(0x5D5BC0A2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include-IC:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gpio_lpc17xx.o --omf_browse .\objects\gpio_lpc17xx.crf --depend .\objects\gpio_lpc17xx.d)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver\GPIO_LPC17xx.h)(0x5D5BC0A2)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\LPC17xx.h)(0x5E1DA18C)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F106A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7B544)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83460A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x58491C6A)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x5D5BC0A2)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x58491C6A)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include-IC:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x5E1DA18C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-IC:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include-IC:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\RTE_Driver-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7B544)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\LPC17xx.h)(0x5E1DA18C)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83460A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F106A)
+I (C:\Users\hosein\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x58491C6A)
